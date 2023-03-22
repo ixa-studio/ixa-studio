@@ -134,7 +134,7 @@ const Home = () => {
                   {isGenerating ? (
                     <span className="loader"></span>
                   ) : (
-                    <p>Generate</p>
+                    <p>Generar Render</p>
                   )}
                 </div>
               </a>
