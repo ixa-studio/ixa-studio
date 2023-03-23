@@ -148,20 +148,20 @@ const Home = () => {
           </div>
         )}
       </div>
-      {/*
+
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-avatar"
+          href="https://frutero.club"
           target="_blanak"
           rel="noreferrer"
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>build with Frutero</p>
           </div>
         </a>
       </div>
-  */}
+
     </div>
   );
 };

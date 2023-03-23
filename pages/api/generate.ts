@@ -14,11 +14,13 @@ const generateAction = async (req, res) => {
 
       // Add fetch request to Hugging Face
   const response = await fetch(
-    `https://api-inference.huggingface.co/models/haycarlitos/buildspace`,
+    //`https://api-inference.huggingface.co/models/haycarlitos/buildspace`,
+    `https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1`,
     {
       headers: {
         Authorization: `Bearer ${process.env.HF_AUTH_KEY}`,
         'Content-Type': 'application/json',
+        'x-use-cache': 'false',
       },
       method: 'POST',
       body: JSON.stringify({
